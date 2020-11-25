@@ -11,15 +11,15 @@ spring:
 
 
 
-# ## 以下为单节点配置方式
-# 并且不需要激活profile
+# # ## 以下为单节点配置方式
+# # 并且不需要激活profile
 
-server:
-  port: 8761
+# server:
+#   port: 8761
 
-eureka:
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
+# eureka:
+#   client:
+#     registerWithEureka: false
+#     fetchRegistry: false
+#   server:
+#     waitTimeInMsWhenSyncEmpty: 0
